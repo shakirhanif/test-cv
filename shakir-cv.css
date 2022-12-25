@@ -2,6 +2,9 @@
   font-family: "Raleway", "Microsoft JhengHei";
   box-sizing: border-box;
 }
+html {
+  background-color: #f2f2f2;
+}
 
 body {
   margin: 0;
@@ -43,11 +46,13 @@ p {
 }
 
 #Resume {
-  max-width: 576px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-width: 590px;
   min-height: 814px;
   background-color: #f2f2f2;
   position: relative;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  border: 3px solid #a1a1a2;
 }
 #Resume .border {
   width: calc(100% - 40px);
@@ -242,8 +247,20 @@ p {
 .bottom .left .skills .p-70 {
   width: 70%;
 }
+.bottom .left .skills .p-65 {
+  width: 65%;
+}
+.bottom .left .skills .p-60 {
+  width: 60%;
+}
+.bottom .left .skills .p-55 {
+  width: 55%;
+}
 .bottom .left .skills .p-50 {
   width: 50%;
+}
+.bottom .left .skills .p-40 {
+  width: 40%;
 }
 .bottom .right {
   flex: 6;
