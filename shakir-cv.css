@@ -228,10 +228,10 @@ p {
 .bottom .left .skills .progress-bar {
   display: inline-block;
   width: 45%;
-  border-radius: 8px;
+  border-radius: 4px;
   align-self: stretch;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   border: 2px solid #eceded;
   margin-left: 0.4rem;
   overflow: hidden;
